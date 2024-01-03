@@ -43,6 +43,7 @@
 
 .resbut:hover {
   background-color: rgb(126, 126, 179);
+  cursor: pointer;
 }
 
 .cancelbut {
