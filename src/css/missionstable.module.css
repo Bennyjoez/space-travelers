@@ -120,3 +120,14 @@ button {
 .profilebutton {
   width: fit-content;
 }
+
+@media only screen and (max-width: 768px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profileTable {
+    width: 80%;
+  }
+}
