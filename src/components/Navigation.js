@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../img/planet.png';
+import styles from '../css/navigation.module.css';
 
 const Navigation = () => (
   <header>
@@ -16,7 +17,7 @@ const Navigation = () => (
         <li>
           <NavLink to="/mission">Missions</NavLink>
         </li>
-        <li>
+        <li className={styles.li}>
           <NavLink to="/Profile">My Profile</NavLink>
         </li>
       </ul>
