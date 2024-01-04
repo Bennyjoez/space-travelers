@@ -7,6 +7,7 @@ import Mission from './components/Missions/Mission';
 import Rocket from './components/Rockets/Rocket';
 import Navigation from './components/Navigation';
 import Profile from './components/Profile';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/Mission" element={<Mission />} />
           <Route path="/profile" element={<Profile />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
